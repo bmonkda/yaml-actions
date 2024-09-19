@@ -21,6 +21,8 @@ jobs:
 
   other:
     runs-on: ubuntu-latest
+    #dependencia después del job hola 
+    needs: [hola]
 
     steps:
     - name: LS
